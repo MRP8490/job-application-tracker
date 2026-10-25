@@ -1,36 +1,111 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Job Application Tracker
 
-## Getting Started
+A modern, responsive job application tracking dashboard built with **Next.js, TypeScript, React, and Tailwind CSS**.
 
-First, run the development server:
+This project helps job seekers organize applications, track interview progress, and manage their job search through a clean, user-friendly interface.
+
+### 🌐 Live Demo
+
+**[View Live Application](https://job-application-tracker-xi-seven.vercel.app/)**
+
+## ✨ Features
+
+- **Add Applications:** Save company names, job titles, application dates, and statuses.
+- **Edit Applications:** Update existing job application details.
+- **Delete Applications:** Remove applications with confirmation.
+- **Search:** Find applications by company name or job title.
+- **Filter by Status:** Filter applications by Applied, Interview, Offer, or Rejected.
+- **Dashboard Statistics:** Automatically calculate total applications, interviews, and offers.
+- **Local Storage:** Keep application data saved in the browser after refreshing.
+- **Responsive Design:** Optimized for desktop and mobile devices.
+- **Status Indicators:** Color-coded labels make application progress easy to understand.
+
+## 🛠️ Tech Stack
+
+- **Next.js** — React framework
+- **React** — Component-based UI
+- **TypeScript** — Type-safe development
+- **Tailwind CSS** — Responsive styling
+- **Local Storage API** — Browser-based data persistence
+- **Vercel** — Deployment and hosting
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/MRP8490/job-application-tracker.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd job-application-tracker
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open `http://localhost:3000` in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📱 Responsive Design
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The dashboard adapts to different screen sizes.
 
-## Learn More
+On smaller screens, statistics cards stack vertically, search controls adjust to the available width, and the applications table supports horizontal scrolling.
 
-To learn more about Next.js, take a look at the following resources:
+## 💾 Data Storage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Application data is stored using the browser's **localStorage API**.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+No account or database connection is required.
 
-## Deploy on Vercel
+**Note:** Data is saved locally to each browser and device. It is not synchronized across devices.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎯 Project Goals
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+I built this project to strengthen my frontend development skills through a practical application.
+
+Key areas of focus included:
+
+- React state management
+- TypeScript interfaces and types
+- Form handling and validation
+- CRUD functionality
+- Search and filtering logic
+- Responsive UI development
+- Browser storage and data persistence
+- Deployment with Vercel
+
+## 🔮 Future Improvements
+
+Potential enhancements include:
+
+- User authentication
+- Cloud database integration
+- Application sorting
+- Interview reminders
+- Application analytics and charts
+
+## 👩‍💻 Developer
+
+**Mona Hadizadeh**
+
+Frontend Developer | React | Next.js | TypeScript
+
+**GitHub:** [MRP8490](https://github.com/MRP8490)
+
+**LinkedIn:** [Mona Hadizadeh](https://www.linkedin.com/in/mona-r84/)
+
+---
+
+⭐ If you find this project useful, feel free to star the repository!
